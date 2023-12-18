@@ -16,19 +16,19 @@ These instructions will get you a copy of the project up and running on your loc
 
 1. Clone the repository:
 
-   ```
+   ```bash
    git clone https://github.com/5c077-60rd0n/azure-app-service-web-app.git
    ```
 
 2. Navigate to the project directory:
 
-   ```
+   ```bash
    cd azure-app-service-web-app
    ```
 
 3. Install the dependencies:
 
-   ```
+   ```bash
    pip install -r requirements.txt
    ```
 
