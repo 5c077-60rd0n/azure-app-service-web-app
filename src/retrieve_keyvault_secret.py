@@ -52,7 +52,7 @@ def retrieve_secret(key_vault_name, secret_name):
     except ResourceNotFoundError:
         logging.error(
             f"The secret {secret_name} was not found in the Key Vault {key_vault_name}.")
-        return None
+        raise # re-raise the exception 
 
     except Exception as e:
         logging.error(f"An error occurred while retrieving the secret: {e}")
