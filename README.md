@@ -40,6 +40,8 @@ Before running the script, you need to set the following environment variables:
 - `AZURE_RESOURCE_GROUP_NAME`: The name of the Azure Resource Group
 - `AZURE_WEB_APP_NAME`: The name of the Azure Web App
 - `AZURE_SERVER_FARM_ID`: The ID of the Azure Server Farm
+- `KEY_VAULT_NAME`: The name of your Azure Key Vault
+- `SECRET_NAME`: The name of the secret in your Azure Key Vault
 
 Then, run the script:
 
