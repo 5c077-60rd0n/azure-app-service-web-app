@@ -40,10 +40,10 @@ def connect_to_database(connection_string):
 
         return cursor
 
-    except Error as e:
+    except pyodbc.Error as e:
         logging.error(
-            f"An error occurred while connecting to the database: {e}")
-        return None
+            f"An error occurred while connecting to the database: {str(e)}")
+        raise  # re-raise the exception
 
 
 def main():
