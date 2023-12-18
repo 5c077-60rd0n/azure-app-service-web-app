@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 2. Navigate to the project directory:
 
    ```
-   cd yourrepository
+   cd azure-app-service-web-app
    ```
 
 3. Install the dependencies:
